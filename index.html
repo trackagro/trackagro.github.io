@@ -98,7 +98,7 @@
                             <p class="para-desc text-muted"> Providing fresh quality fruits and vegetables, straight from the farms to you, governed by Blockchain Technology. </p>
                             
                             <div class="subcribe-form mt-4 pt-2">
-                                <form>
+                                <form method = "post" onsubmit = "saveDB(); return false">
                                     <div class="form-group">
                                         <input type="email" id="email" name="email" class="border bg-white rounded-pill" required placeholder="Email Address">
                                         <button type="submit" class="btn btn-pills btn-primary">Request a Demo</button>
@@ -441,6 +441,7 @@
         <!-- Back to top -->
 
         <!-- javascript -->
+        <script src = "save.js"></script>
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
