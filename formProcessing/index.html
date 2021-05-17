@@ -1,0 +1,57 @@
+<!-- Name = ["nameOfCrop", "farmerName", "farmLocation", "locationCo-ordinates", "farmerAge", "sowingDate", "soilPH", "soilTexture", "areaOfLand", "fertilisersUsed", "pHmeasuredOn", "IrrigationDate", "WeedRemovalDate", "HarvestingDate", "postHarvestingProcess", "postHarvestingProcessDate", "quantity"]
+i = 0;
+# s = 
+while(i < len(Name)):
+  # print(Name[i]);
+  print('<div class="form-group"> <label for="' + Name[i] + '">' + Name[i] + '</label> <input type="'+Name[i]+'" class="form-control" id="'+Name[i]+'" placeholder="'+Name[i]+'"></div>')
+  i+=1 -->
+<!DOCTYPE html>
+<html>
+
+<title> Processing Form </title>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+<div class="container">
+<h1>Add Information/जानकारी जोड़ें</h1>
+<form>
+
+
+<div class="form-group"> 
+  <label for="NameofPerson">NameofPerson</label> 
+  <input type="NameofPerson" class="form-control" id="NameofPerson" placeholder="NameofPerson">
+</div>
+<div class="form-group"> 
+  <label for="ProcessingLocationName">ProcessingLocationName</label> 
+  <input type="ProcessingLocationName" class="form-control" id="ProcessingLocationName" placeholder="ProcessingLocationName">
+</div>
+<div class="form-group"> 
+  <label for="ProcessingDate">ProcessingDate</label> 
+  <input type="datetime-local" class="form-control" id="ProcessingDate" placeholder="ProcessingDate">
+</div>
+<div class="form-group"> 
+  <label for="ProcessName">ProcessName</label> 
+  <input type="ProcessName" class="form-control" id="ProcessName" placeholder="ProcessName">
+</div>
+<div class="form-group"> 
+  <label for="ProcessingDuration">ProcessingDuration (in minutes)</label> 
+  <input type="number" class="form-control" id="ProcessingDuration" placeholder="ProcessingDuration">
+</div>
+<div class="form-group"> 
+  <label for="quantity">quantity (in kgs)</label> 
+  <input type="number" class="form-control" id="quantity" placeholder="quantity">
+</div>
+
+
+  <button type="submit" class="btn btn-success">Submit Information / जानकारी जमा करें</button>
+</form>
+</div>
+
+<hr>
+
+</body>
+</html>

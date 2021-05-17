@@ -1,0 +1,104 @@
+<!-- Name = ["nameOfCrop", "farmerName", "farmLocation", "locationCo-ordinates", "farmerAge", "sowingDate", "soilPH", "soilTexture", "areaOfLand", "fertilisersUsed", "pHmeasuredOn", "IrrigationDate", "WeedRemovalDate", "HarvestingDate", "postHarvestingProcess", "postHarvestingProcessDate", "quantity"]
+i = 0;
+# s = 
+while(i < len(Name)):
+  # print(Name[i]);
+  print('<div class="form-group"> <label for="' + Name[i] + '">' + Name[i] + '</label> <input type="'+Name[i]+'" class="form-control" id="'+Name[i]+'" placeholder="'+Name[i]+'"></div>')
+  i+=1 -->
+<!DOCTYPE html>
+<html>
+
+<title> Farmer Form </title>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+<div class="container">
+<h1>Add Information/जानकारी जोड़ें</h1>
+<form>
+<div class="form-group"> 
+  <label for="nameOfCrop">nameOfCrop</label> <input type="nameOfCrop" class="form-control" id="nameOfCrop" placeholder="nameOfCrop">
+</div>
+<div class="form-group"> 
+  <label for="farmerName">farmerName</label> <input type="farmerName" class="form-control" id="farmerName" placeholder="farmerName">
+</div>
+<div class="form-group"> 
+  <label for="farmLocation">farmLocation</label> <input type="farmLocation" class="form-control" id="farmLocation" placeholder="farmLocation">
+</div>
+<div class="form-group"> 
+  <label for="locationCo-ordinates">locationCo-ordinates</label> <input type="locationCo-ordinates" class="form-control" id="locationCo-ordinates" placeholder="locationCo-ordinates">
+</div>
+<div class="form-group"> 
+  <label for="farmerAge">farmerAge</label> <input type="farmerAge" class="form-control" id="farmerAge" placeholder="farmerAge">
+</div>
+<div class="form-group"> 
+  <label for="sowingDate">sowingDate</label> <input type="datetime-local" class="form-control" id="sowingDate" placeholder="sowingDate">
+</div>
+<div class="form-group"> 
+  <label for="soilPH">soilPH</label> <input type="soilPH" class="form-control" id="soilPH" placeholder="soilPH">
+</div>
+<div class="form-group"> 
+  <label for="soilTexture">soilTexture</label> <input type="soilTexture" class="form-control" id="soilTexture" placeholder="soilTexture">
+</div>
+<div class="form-group"> 
+  <label for="areaOfLand">areaOfLand</label> <input type="areaOfLand" class="form-control" id="areaOfLand" placeholder="areaOfLand">
+</div>
+<div class="form-group"> 
+  <label for="fertilisersUsed">fertilisersUsed</label> <input type="fertilisersUsed" class="form-control" id="fertilisersUsed" placeholder="fertilisersUsed">
+</div>
+<div class="form-group"> 
+  <label for="pHmeasuredOn">pHmeasuredOn</label> <input type="datetime-local" class="form-control" id="pHmeasuredOn" placeholder="pHmeasuredOn">
+</div>
+<div class="form-group"> 
+  <label for="IrrigationDate">IrrigationDate</label> <input type="datetime-local" class="form-control" id="IrrigationDate" placeholder="IrrigationDate">
+</div>
+<div class="form-group"> 
+  <label for="WeedRemovalDate">WeedRemovalDate</label> <input type="datetime-local" class="form-control" id="WeedRemovalDate" placeholder="WeedRemovalDate">
+</div>
+<div class="form-group"> 
+  <label for="HarvestingDate">HarvestingDate</label> <input type="datetime-local" class="form-control" id="HarvestingDate" placeholder="HarvestingDate">
+</div>
+<div class="form-group"> 
+  <label for="postHarvestingProcess">postHarvestingProcess</label> <input type="postHarvestingProcess" class="form-control" id="postHarvestingProcess" placeholder="postHarvestingProcess">
+</div>
+<div class="form-group">
+    
+    <label for="Inputselect">postHarvestingProcess</label>
+    <select class="form-control" >
+      <option>Threshed</option>
+      <option>Curing</option>
+      <option>Sifted and Winnowing</option>
+    </select>
+  </div>  
+<div class="form-group"> 
+  <label for="quantity">quantity</label> <input type="quantity" class="form-control" id="quantity" placeholder="quantity">
+</div>
+  <!-- <div class="form-group">
+    
+    <label for="Inputselect">postHarvestingProcess</label>
+    <select class="form-cont
+    rol" >
+      <option>Threshed</option>
+      <option>Curing</option>
+      <option>Sifted and Winnowing</option>
+    </select>
+  </div>  
+  <div class="form-group">
+    
+    <label for=" Email1msg">Message:</label> -->
+<!-- add text area he
+  re -->
+
+  <!-- </div> -->
+
+  <button type="submit" class="btn btn-success">Submit Information / जानकारी जमा करें</button>
+</form>
+</div>
+
+<hr>
+
+</body>
+</html>

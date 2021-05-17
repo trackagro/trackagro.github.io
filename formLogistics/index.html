@@ -1,0 +1,42 @@
+<!-- Name = ["nameOfCrop", "farmerName", "farmLocation", "locationCo-ordinates", "farmerAge", "sowingDate", "soilPH", "soilTexture", "areaOfLand", "fertilisersUsed", "pHmeasuredOn", "IrrigationDate", "WeedRemovalDate", "HarvestingDate", "postHarvestingProcess", "postHarvestingProcessDate", "quantity"]
+i = 0;
+# s = 
+while(i < len(Name)):
+  # print(Name[i]);
+  print('<div class="form-group"> <label for="' + Name[i] + '">' + Name[i] + '</label> <input type="'+Name[i]+'" class="form-control" id="'+Name[i]+'" placeholder="'+Name[i]+'"></div>')
+  i+=1 -->
+<!DOCTYPE html>
+<html>
+
+<title> Logistics Form </title>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+<div class="container">
+<h1>Add Information/जानकारी जोड़ें</h1>
+<form>
+
+
+<div class="form-group"> <label for="pickUpLocation">pickUpLocation</label> <input type="pickUpLocation" class="form-control" id="pickUpLocation" placeholder="pickUpLocation"></div>
+<div class="form-group"> <label for="dropLocation">dropLocation</label> <input type="dropLocation" class="form-control" id="dropLocation" placeholder="dropLocation"></div>
+<div class="form-group"> <label for="name">Your Name</label> <input type="name" class="form-control" id="name" placeholder="name"></div>
+<div class="form-group"> <label for="vehicle">Vehicle</label> <input type="vehicle" class="form-control" id="vehicle" placeholder="vehicle"></div>
+<div class="form-group"> <label for="pickUpDateandTime">pickUpDateandTime</label> <input type="datetime-local" class="form-control" id="pickUpDateandTime" placeholder="pickUpDateandTime"></div>
+<div class="form-group"> <label for="dropDateAndTime">dropDateAndTime</label> <input type="datetime-local" class="form-control" id="dropDateAndTime" placeholder="dropDateAndTime"></div>
+<div class="form-group"> <label for="quantity">Quantity (in kgs) </label> <input type="number" class="form-control" id="quantity" placeholder="quantity"></div>
+
+
+
+<div>
+  <button type="submit" class="btn btn-success">Submit Information / जानकारी जमा करें</button>
+</form>
+</div>
+
+<hr>
+
+</body>
+</html>
